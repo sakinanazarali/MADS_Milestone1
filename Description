@@ -1,0 +1,8 @@
+Data is being used from this website https://openflights.org/data.html
+
+How we imported the .dat files into txt files
+
+wget -O airlines.txt https://raw.githubusercontent.com/jpatokal/openflights/master/data/airlines.dat
+or for mac curl -o airlines.txt https://raw.githubusercontent.com/jpatokal/openflights/master/data/airlines.dat
+
+process all the txt files into csv files
